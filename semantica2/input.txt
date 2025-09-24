@@ -1,0 +1,109 @@
+int suma(int a, int b) {
+    int resultado_local = 0;
+    resultado_local = a + b;
+    return resultado_local;
+}
+
+
+string saludar(string nombre) {
+    // Las variables locales en diferentes funciones pueden tener el mismo nombre.
+    string resultado_local = ""; 
+    resultado_local = "Hola " + nombre;
+    return resultado_local;
+}
+
+
+int total = 0;
+string mensaje = "";
+int umbral = 15;
+
+
+total = suma(10, 5);
+
+
+if (total > umbral) {
+    mensaje = saludar("Mundo");
+} else {
+    mensaje = saludar("Clase");
+}
+
+
+int a = 100;
+
+
+
+int suma(int a, int b) {
+    int resultado_local = 0;
+    resultado_local = a + b;
+    return resultado_local;
+}
+
+
+string saludar(string nombre) {
+    string resultado_local = ""; 
+    resultado_local = "Hola " + nombre;
+    return resultado_local;
+}
+
+
+int total = 0;
+string mensaje = "";
+int umbral = 15;
+
+
+total = suma(10, 5);
+
+
+if (total > umbral) {
+    mensaje = saludar("Mundo");
+} else {
+    mensaje = saludar("Clase");
+}
+
+
+int a = 100;
+
+
+
+int x = 10;
+string x = "hola";                 
+
+int miFuncion() { return 0; }
+int miFuncion() { return 1; }    
+
+if (10 > 5) {
+    int variable_local = 100;
+}
+variable_local = 50;                 
+
+
+
+int resultado = 0;
+resultado = funcionInexistente();   
+
+int mi_variable = 10;
+mi_variable();                      
+
+resultado = suma(5);                
+resultado = suma(5, 10, 15);         
+
+string saludo = "hola";
+resultado = suma(5, saludo);        
+
+
+
+int obtenerNumero() { return 100; }
+string texto = "";
+texto = obtenerNumero();             
+
+int miFuncion2() { return 10; }
+int y = 0;
+y = 5 + miFuncion2;                 
+
+int z = 10;
+return z;                            
+
+int obtenerNumero2() {
+    string saludo2 = "esto no es un numero";
+    return saludo2;                  
+}
