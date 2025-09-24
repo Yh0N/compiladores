@@ -1,4 +1,4 @@
-grammar Asignaciones;
+    grammar Asignaciones;
 
 programa : asignacion+ ;
 asignacion : ID '=' expresion ';' ;
